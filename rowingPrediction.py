@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix
 
 # dataset
 
-#rowingData = pd.read_csv('https://github.com/pippabarkley19/rowing-practice-prediction/blob/3f18cdceabbd0def7f63f98959258ff5c8ae7b72/rowing_data.csv')
+#rowingData = pd.read_csv('rowing_data.csv')
 uploaded = files.upload()
 rowingData = pd.read_csv("rowing_data.csv")
 
